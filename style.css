@@ -1,0 +1,307 @@
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+	background: #bbbbbb;
+	color: #222;
+}
+
+header {
+	background: #222;
+	color: #fff;
+	padding: 20px 0;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+	border-radius: 0 0 10px 10px;
+}
+.logo h1 {
+	margin: 0;
+	font-size: 2.2em;
+	letter-spacing: 2px;
+	text-align: center;
+}
+nav ul {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+	margin: 15px 0 0 0;
+}
+nav ul li {
+	margin: 0 18px;
+}
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	padding: 6px 14px;
+	border-radius: 4px;
+	transition: background 0.2s;
+}
+nav ul li a.activo,
+nav ul li a:hover {
+	background: #ffb347;
+	color: #222;
+}
+
+main {
+	max-width: 900px;
+	margin: 30px auto;
+	background: #bbbbbb;
+	padding: 30px 24px;
+}
+
+.leccion-detalle {
+	max-width: 600px;
+	margin: 40px auto;
+	background: #bbbbbb;
+	border-radius: 12px;
+	padding: 32px 24px;
+	text-align: left;
+}
+
+.leccion-detalle h2 {
+	font-size: 2em;
+	margin-bottom: 18px;
+	color: #ffb347;
+}
+
+.leccion-detalle img {
+	width: 100%;
+	max-width: 220px;
+	border-radius: 10px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	margin: 20px auto;
+	display: block;
+}
+
+.leccion-detalle h3 {
+	margin-top: 28px;
+	font-size: 1.2em;
+	color: #ffb347;
+}
+
+.leccion-detalle ul {
+	text-align: left;
+	margin: 18px 0 24px 0;
+	max-width: 400px;
+	padding-left: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.intro-rfa-contenido h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.intro-rfa-lecciones {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 18px;
+	margin: 30px 0;
+}
+
+.leccion {
+	background: #f0f0f0;
+	padding: 0;
+	text-align: center;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	transition: transform 0.25s cubic-bezier(.25,.8,.25,1), box-shadow 0.25s;
+	transform: scale(1.05);
+	box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+	cursor: pointer;
+	border-radius: 12px;
+}
+
+.leccion img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 8px;
+	display: block;
+	background: #fff;
+	}
+
+.tutoriales .tarjetas {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin-top: 18px;
+}
+.tarjeta {
+	background: #f0f0f0;
+	border-radius: 8px;
+	padding: 16px;
+	flex: 1 1 220px;
+	text-align: center;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+}
+.tarjeta img {
+	max-width: 120px;
+	border-radius: 6px;
+}
+.tarjeta h4 {
+	margin: 12px 0 8px 0;
+}
+.tarjeta a {
+	display: inline-block;
+	margin-top: 8px;
+	color: #ffb347;
+	text-decoration: underline;
+}
+
+.btn-tutorial {
+  display: inline-block;
+  padding: 8px 20px;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, transform 0.2s;
+  margin-top: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.btn-tutorial a {
+    color: #fff;
+}
+
+.btn-tutorial:hover {
+  background-color: #ffb347;
+	color: #222;
+  transform: scale(1.05);
+}
+
+.sobre-mi img {
+	margin: 20px auto;
+	display: block;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.sobre-mi ul {
+	text-align: left;
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 20px;
+}
+
+.contacto {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.form-contacto {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin: 24px 0;
+}
+
+.form-contacto label {
+	text-align: left;
+	font-weight: 500;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+.form-contacto button {
+	background: #ffb347;
+	color: #222;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 0;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+.form-contacto button:hover {
+	background: #ffa500;
+}
+
+.info-contacto ul {
+	list-style: none;
+	padding: 0;
+}
+
+.info-contacto li {
+	margin-bottom: 8px;
+}
+
+footer {
+	background: #222;
+	color: #fff;
+	text-align: center;
+	padding: 18px 0;
+	margin-top: 40px;
+	border-radius: 10px 10px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .intro-rfa-lecciones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-rfa-lecciones {
+    grid-template-columns: 1fr;
+  }
+  main {
+    padding: 20px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.6em;
+  }
+  .leccion-detalle h2 {
+    font-size: 1.6em;
+  }
+  .tarjeta img {
+    max-width: 90px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .intro-rfa-lecciones {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .leccion {
+    min-height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro-rfa-lecciones {
+    grid-template-columns: 1fr;
+  }
+  .leccion {
+    min-height: 140px;
+    padding: 12px;
+  }
+	.leccion img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+}

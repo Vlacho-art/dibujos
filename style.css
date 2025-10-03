@@ -1,7 +1,7 @@
 body {
 	font-family: 'Segoe UI', Arial, sans-serif;
 	margin: 0;
-	background: #bbbbbb;
+	background: #ffffff;
 	color: #222;
 }
 
@@ -45,14 +45,14 @@ nav ul li a:hover {
 main {
 	max-width: 900px;
 	margin: 30px auto;
-	background: #bbbbbb;
+	background: #ffffff;
 	padding: 30px 24px;
 }
 
 .leccion-detalle {
 	max-width: 600px;
 	margin: 40px auto;
-	background: #bbbbbb;
+	background: #ffffff;
 	border-radius: 12px;
 	padding: 32px 24px;
 	text-align: left;
